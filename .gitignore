@@ -1,0 +1,14 @@
+.vs/ 
+/build/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.ipch
+**/.vs/
+**/*.ipch
+**/*.user
+**/*.sdf
+**/Debug/
+**/Release/
+**/x64/
