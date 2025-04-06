@@ -26,4 +26,4 @@ This project demonstrates thread synchronization in a Windows environment using 
 ---
 
 ## Result:
-![image](https://github.com/user-attachments/assets/ee67a7c4-52d1-4bc3-9cdf-d7dc7a01ebfd)
+![image](https://github.com/user-attachments/assets/1bb4b1dc-74f0-407f-8475-5fb50542af98)
