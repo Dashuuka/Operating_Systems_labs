@@ -23,4 +23,4 @@ This project demonstrates process synchronization in a Windows environment using
 ---
 
 ## Result:
-![image](https://github.com/user-attachments/assets/c588d32c-801e-43c1-8a87-d60588019b86)
+![image](https://github.com/user-attachments/assets/b0c70bf2-0daf-44ba-b8d4-f9c62b089532)
