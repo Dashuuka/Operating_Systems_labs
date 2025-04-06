@@ -1,5 +1,6 @@
 .vs/
 Lab4/.vs/
+Lab4/out/
 /build/
 *.obj
 *.exe
