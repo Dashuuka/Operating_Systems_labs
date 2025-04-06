@@ -1,0 +1,22 @@
+# ninja log v5
+2	10	0	clean	8c45b54705a541e8
+7	770	7656616550669611	CMakeFiles/Receiver.dir/src/RingBuffer.cpp.obj	483494f1cf8d51ed
+15	797	7656616550758189	CMakeFiles/Sender.dir/src/RingBuffer.cpp.obj	76c499d1799fa75c
+49	803	7656616551016932	tests/CMakeFiles/test_ringbuffer.dir/__/src/RingBuffer.cpp.obj	fd7033d0018e60ee
+4	843	7656616551387238	CMakeFiles/Receiver.dir/src/Receiver.cpp.obj	ac409e2bde57bac5
+11	853	7656616551477864	CMakeFiles/Sender.dir/src/Sender.cpp.obj	c58921656ee28d89
+41	1291	7656616555870260	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	bc32828a6aee22c6
+45	1368	7656616556648523	tests/CMakeFiles/test_ringbuffer.dir/test_ringbuffer.cpp.obj	a05d9fcafdf744bb
+843	1461	7656616557271445	Receiver.exe	8665641f21100b45
+853	1462	7656616557271445	Sender.exe	61bd55294b30281a
+34	1475	7656616557730612	_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj	90f9a59d3ecc267a
+22	1860	7656616561582592	_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	f7acf41d380c2e55
+30	1887	7656616561830740	_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.obj	99adfe990c198568
+18	2344	7656616566387800	_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.obj	53c31715c7748b64
+38	2370	7656616566590066	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	8da8c29c8b4625cf
+2370	2440	7656616567321824	lib/gtest.lib	64b8ec67bc55abc3
+2344	2446	7656616567381787	lib/gmock.lib	ad88fd818bb5dcf2
+26	2482	7656616567781965	_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.obj	15e94225c5d0c68d
+2440	2488	7656616567811979	lib/gtest_main.lib	f3af982cc754f3b
+2482	2548	7656616568402921	lib/gmock_main.lib	1eff639c9cfeef3a
+2488	3108	7656616573642440	tests/test_ringbuffer.exe	4fac4cb5a0861484
