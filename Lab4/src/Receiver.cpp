@@ -23,14 +23,12 @@ int main() {
         std::cin >> capacity;
         std::cin.ignore();
 
-        // Создание и инициализация кольцевой очереди.
         RingBuffer ring(filename, capacity, true);
 
         std::cout << "Enter number of Sender processes to launch: ";
         std::cin >> numSenders;
         std::cin.ignore();
 
-        // Запуск процессов Sender.
         for (int i = 0; i < numSenders; ++i) {
             std::string command = SENDER_COMMAND + filename;
             std::cout << "Launching Sender process " << i + 1 << std::endl;
@@ -40,11 +38,9 @@ int main() {
             }
         }
 
-        // Ожидание сигнала готовности от Sender-процессов (симуляция).
         std::cout << "Press Enter when all Sender processes are ready...";
         std::cin.get();
 
-        // Основной цикл Receiver.
         std::string input;
         while (true) {
             std::cout << "Enter command (read/exit): ";

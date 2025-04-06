@@ -2,7 +2,6 @@
 #include <stdexcept>
 #include <cstring>
 
-// The header is stored at the beginning of the file.
 static const std::streampos HEADER_POSITION = 0;
 
 // Calculate the file position for the message slot at index.
@@ -15,7 +14,6 @@ RingBuffer::RingBuffer(const std::string& filename, size_t capacity, bool initia
 {
     openFile(initialize);
     if (initialize) {
-        // Initialize header.
         RingBufferHeader header;
         header.capacity = capacity_;
         header.head = 0;
@@ -32,7 +30,6 @@ RingBuffer::RingBuffer(const std::string& filename, size_t capacity, bool initia
     }
 }
 
-// Новый конструктор для открытия существующего файла.
 RingBuffer::RingBuffer(const std::string& filename)
     : filename_(filename)
 {
@@ -40,7 +37,6 @@ RingBuffer::RingBuffer(const std::string& filename)
     if (!file_.is_open()) {
         throw std::runtime_error("Cannot open file: " + filename_);
     }
-    // Чтение заголовка для получения параметров.
     RingBufferHeader header;
     readHeader(header);
     capacity_ = header.capacity;
@@ -128,7 +124,6 @@ std::string RingBuffer::popMessage() {
     readMessage(header.head, buffer);
     std::string message(buffer);
 
-    // Optionally clear the slot.
     char empty[MAX_MESSAGE_LENGTH] = { 0 };
     writeMessage(header.head, empty);
 

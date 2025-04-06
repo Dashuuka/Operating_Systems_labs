@@ -1,3 +1,15 @@
-﻿add_executable(test_ringbuffer test_ringbuffer.cpp ../src/RingBuffer.cpp)
-target_link_libraries(test_ringbuffer gtest_main)
-add_test(NAME RingBufferTest COMMAND test_ringbuffer)
+﻿add_executable(UnitTests
+    ${CMAKE_CURRENT_SOURCE_DIR}/test_ringbuffer.cpp
+    ${CMAKE_SOURCE_DIR}/src/RingBuffer.cpp
+)
+
+target_include_directories(UnitTests PRIVATE
+    ${CMAKE_SOURCE_DIR}/include
+)
+
+target_link_libraries(UnitTests PRIVATE
+    gtest_main
+)
+
+include(GoogleTest)
+gtest_discover_tests(UnitTests)

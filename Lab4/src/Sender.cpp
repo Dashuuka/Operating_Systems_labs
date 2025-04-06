@@ -11,10 +11,8 @@ int main(int argc, char* argv[]) {
         }
         std::string filename = argv[1];
 
-        // Открытие существующего файла кольцевой очереди.
         RingBuffer ring(filename);
 
-        // Сигнал о готовности.
         std::cout << "Sender process ready. Enter command (send/exit):" << std::endl;
 
         std::string input;

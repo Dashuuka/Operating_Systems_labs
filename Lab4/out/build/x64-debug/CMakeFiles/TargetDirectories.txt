@@ -1,10 +1,12 @@
 C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/CMakeFiles/Receiver.dir
 C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/CMakeFiles/Sender.dir
+C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/CMakeFiles/test.dir
 C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/CMakeFiles/edit_cache.dir
 C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
 C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/CMakeFiles/list_install_components.dir
 C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/CMakeFiles/install.dir
 C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/CMakeFiles/install/local.dir
+C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/_deps/googletest-build/CMakeFiles/test.dir
 C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/_deps/googletest-build/CMakeFiles/edit_cache.dir
 C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/_deps/googletest-build/CMakeFiles/rebuild_cache.dir
 C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/_deps/googletest-build/CMakeFiles/list_install_components.dir
@@ -12,6 +14,7 @@ C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/_deps/googletest-build
 C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/_deps/googletest-build/CMakeFiles/install/local.dir
 C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock.dir
 C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir
+C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/_deps/googletest-build/googlemock/CMakeFiles/test.dir
 C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/_deps/googletest-build/googlemock/CMakeFiles/edit_cache.dir
 C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/_deps/googletest-build/googlemock/CMakeFiles/rebuild_cache.dir
 C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/_deps/googletest-build/googlemock/CMakeFiles/list_install_components.dir
@@ -19,12 +22,14 @@ C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/_deps/googletest-build
 C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/_deps/googletest-build/googlemock/CMakeFiles/install/local.dir
 C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/_deps/googletest-build/googletest/CMakeFiles/gtest.dir
 C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir
+C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/_deps/googletest-build/googletest/CMakeFiles/test.dir
 C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/_deps/googletest-build/googletest/CMakeFiles/edit_cache.dir
 C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/_deps/googletest-build/googletest/CMakeFiles/rebuild_cache.dir
 C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/_deps/googletest-build/googletest/CMakeFiles/list_install_components.dir
 C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/_deps/googletest-build/googletest/CMakeFiles/install.dir
 C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/_deps/googletest-build/googletest/CMakeFiles/install/local.dir
-C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/tests/CMakeFiles/test_ringbuffer.dir
+C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/tests/CMakeFiles/UnitTests.dir
+C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/tests/CMakeFiles/test.dir
 C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/tests/CMakeFiles/edit_cache.dir
 C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/tests/CMakeFiles/rebuild_cache.dir
 C:/Users/Dashuka/source/repos/OS/Lab4/out/build/x64-debug/tests/CMakeFiles/list_install_components.dir
