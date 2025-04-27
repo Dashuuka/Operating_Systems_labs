@@ -1,0 +1,15 @@
+# Visual Studio files 
+.vs/ 
+*.suo 
+*.user 
+*.cache 
+*.pdb 
+# Build directories 
+build/ 
+out/ 
+# CMake generated files 
+CMakeFiles/ 
+CMakeCache.txt 
+cmake_install.cmake 
+Makefile 
+*.log 
