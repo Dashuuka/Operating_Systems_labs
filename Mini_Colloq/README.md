@@ -1,1 +1,5 @@
-# Operating_Systems_labs
+# Mini Colloquium: Visitor Pattern for File System
+
+This project demonstrates the implementation of the Visitor design pattern for working with a composite file system structure in C++. The system consists of three node types: Disk, Folder, and File (with multiple file types: text, binary, executable). The project implements concurrent access through a thread-safe synchronization strategy using template-based orthogonal design. Various visitors are implemented including PrintVisitor, SizeCalculatorVisitor, and FileCounterVisitor, which can traverse the file system in both single-threaded and multi-threaded modes. The synchronization is achieved through configurable strategies (NoSync and MutexSync) that can be applied to any node type. Built with CMake and comprehensively tested with Google Test, including unit tests, integration tests, and multi-threading verification tests to prove successful synchronization.
+
+![image](https://github.com/user-attachments/assets/847cef2a-fe43-425d-99d4-72866218605d)
