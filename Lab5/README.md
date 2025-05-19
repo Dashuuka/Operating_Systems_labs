@@ -1,26 +1,35 @@
-# Lab4: Process Synchronization via File-Based Ring Buffer
+# Lab5: Named Pipes File Access Manager
 
-This project demonstrates process synchronization in a Windows environment using a shared binary file as a **ring buffer (FIFO)** for message passing between processes.
+## Overview
+This project implements a system for managing concurrent access to a file through named pipes in Windows. It demonstrates the "readers-writers problem" concurrency pattern, where multiple clients can read simultaneously, but write operations require exclusive access.
 
-## Key Components
-- **Receiver**:  
-  - Creates and initializes a binary file as a ring buffer (max 20-character messages)  
-  - Launches multiple Sender processes  
-  - Reads messages from the file upon user command
+## Features
+- Server manages file access and handles client requests through named pipes
+- Multiple clients can connect simultaneously to read and modify employee records
+- Concurrency control:
+  - Multiple readers can access records simultaneously
+  - Writers get exclusive access to records
+  - Readers are blocked when a writer has access
+  - Writers are blocked when any reader has access
+- Windows-compatible named pipes implementation
 
-- **Sender**:  
-  - Opens the shared file-based ring buffer  
-  - Sends messages (entered via console) to the Receiver
+## Components
+- **Server**: Manages the file and client connections
+- **Client**: Connects to the server to read and modify records
+- **FileManager**: Handles the file operations and access control
+- **Employee**: Data structure for employee records
 
-## Synchronization Features  
-✔ **File-Based IPC** – Uses a binary file as a shared ring buffer  
-✔ **FIFO Queue** – Processes messages in the order they are sent  
-✔ **Robust Error Handling** – Manages full/empty buffer and message length issues
+## How to Use
+1. Build the project using CMake
+2. Run the server first: `server.exe`
+3. The server will automatically launch client processes
+4. Follow the prompts in the client to read or modify employee records
 
-**Build System**: CMake  
-**Testing Framework**: Google Test
+## Testing
+The project includes comprehensive unit tests using Google Test framework that verify:
+- File operations (create, read, update)
+- Concurrency control mechanisms
+- Multi-threaded access patterns
 
----
-
-## Result:
-![image](https://github.com/user-attachments/assets/b0c70bf2-0daf-44ba-b8d4-f9c62b089532)
+## Result
+![image](https://github.com/user-attachments/assets/59bbcd98-146f-4944-80b5-f47f78f784f8)
