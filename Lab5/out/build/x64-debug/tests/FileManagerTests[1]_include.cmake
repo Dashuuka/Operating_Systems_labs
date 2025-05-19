@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/Dashuka/source/repos/OS/Lab5/out/build/x64-debug/tests/FileManagerTests[1]_tests.cmake")
+  include("C:/Users/Dashuka/source/repos/OS/Lab5/out/build/x64-debug/tests/FileManagerTests[1]_tests.cmake")
+else()
+  add_test(FileManagerTests_NOT_BUILT FileManagerTests_NOT_BUILT)
+endif()

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Executable>C:\Users\Dashuka\source\repos\OS\Lab5\out\build\x64-debug\tests\FileManagerTests.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="FileManagerTest.CreateFile" Duration="1" />
+    <TestDuration Test="FileManagerTest.CreateEmptyFile" Duration="2" />
+    <TestDuration Test="FileManagerTest.CreateFileWithMaxRecords" Duration="1" />
+    <TestDuration Test="FileManagerTest.GetEmployeeById" Duration="1" />
+    <TestDuration Test="FileManagerTest.UpdateEmployee" Duration="2" />
+    <TestDuration Test="FileManagerTest.ReadLocks" Duration="1" />
+    <TestDuration Test="FileManagerTest.WriteLocks" Duration="1" />
+    <TestDuration Test="FileManagerTest.ReadWriteContention" Duration="1" />
+    <TestDuration Test="FileManagerTest.ConcurrentReaders" Duration="62" />
+    <TestDuration Test="FileManagerTest.ConcurrentWriters" Duration="61" />
+    <TestDuration Test="FileManagerTest.ReadersBlockedByWriter" Duration="105" />
+    <TestDuration Test="FileManagerTest.WriterBlockedByReaders" Duration="79" />
+    <TestDuration Test="FileManagerTest.EdgeCases" Duration="1" />
+    <TestDuration Test="FileManagerTest.MultipleReleases" Duration="1" />
+    <TestDuration Test="FileManagerTest.ComplexScenarios" Duration="155" />
+  </TestDurations>
+</GtaTestDurations>
